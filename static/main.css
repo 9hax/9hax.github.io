@@ -1,23 +1,46 @@
-body {
-  background: #0003;
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
 
-.main-page h1,
-.main-page h2,
-.main-page h3,
-.main-page h4,
-.main-page h5,
-.main-page h6 {
+body {
+  background: #0003;
+  font-family: 'Comfortaa', sans-serif;
+}
+
+.main-page  {
+  margin: 10px;
+}
+
+h1, h2, h3, h4, h5, h6 {
   background: #000;
-  padding: 5px;
-  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 30px;
+  /* maximum curve for a height under 60px */
   width: fit-content;
   color: #fff;
-  text-decoration: underline;
-  text-decoration-color: #9009;
   text-transform: lowercase;
 }
 
-.main-page p {
+p {
+  padding: 5px
+}
 
+.central-box {
+  background-color: #0003;
+  margin: -10px;
+  margin-bottom: 10px;
+  padding: 5px;
+}
+
+.central-box .description {
+  font-size: 20px;
+  text-align: center;
+}
+
+.page-title {
+  font-size: 60px;
+  text-align: center;
 }

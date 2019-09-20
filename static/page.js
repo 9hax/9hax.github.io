@@ -1,9 +1,14 @@
+/* This JS file is written by 9hax.
+ * I apologize for any bad code.
+ * Is there actually a difference between chicken nuggets and cobalt?
+ */
 document.write(`
 <head>
   <meta charset="utf-8">
   <link rel="stylesheet" href="static/main.css">
   <link rel="stylesheet" href="static/navbar.css">
-  <link rel="stylesheet" href="static/fontawesome.css">
+  <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Comfortaa&display=swap" rel="stylesheet">
   <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
   <meta name="HandheldFriendly" content="true">
@@ -11,9 +16,7 @@ document.write(`
 
 <div class="navbar-container">
   <nav class="navbar">
-    <span class="navbar-toggle" id="js-navbar-toggle">
-      <i class="fa fa-bars"></i>
-    </span>
+    <span class="navbar-toggle" id="js-navbar-toggle">&#9776;</span>
     <a href="/#" class="navbar-logo">9hax</a>
     <ul class="navbar-link-area" id="navbar-collapse-js">
       <li><a href="#" class="navbar-links">Home</a></li>

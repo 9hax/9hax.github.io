@@ -1,3 +1,7 @@
+/* This CSS file is written by 9hax. 
+ * I apologize for any bad code.
+ * Have you ever found the Ogre with 7 legs?
+ */
 * {
   box-sizing: border-box;
   padding: 0;
@@ -6,7 +10,7 @@
 
 body {
   background: #0003;
-  font-family: 'Comfortaa', sans-serif;
+  font-family: 'Lato', sans-serif;
 }
 
 .main-page  {
@@ -21,7 +25,7 @@ h1, h2, h3, h4, h5, h6 {
   /* maximum curve for a height under 60px */
   width: fit-content;
   color: #fff;
-  text-transform: lowercase;
+  text-transform: uppercase;
 }
 
 p {
@@ -30,9 +34,11 @@ p {
 
 .central-box {
   background-color: #0003;
-  margin: -10px;
+  margin: 0 auto;
+  width: 80%;
   margin-bottom: 10px;
   padding: 5px;
+  border-radius: 10px;
 }
 
 .central-box .description {
@@ -41,6 +47,7 @@ p {
 }
 
 .page-title {
+  font-family: 'Comfortaa';
   font-size: 60px;
   text-align: center;
 }

@@ -5,6 +5,6 @@ function loadVideo() {
   });
   return link
 }
-var youtube-link = loadVideo();
+var youtube_link = loadVideo();
 
-document.write('<a href="'+link+'" width="600" height="340" frameborder="0" allowfullscreen></iframe><script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>');
+document.write('<a href="'+youtube_link+'" width="600" height="340" frameborder="0" allowfullscreen></iframe><script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>');

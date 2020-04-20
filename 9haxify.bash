@@ -28,7 +28,7 @@ then
  read -p "Installation finished. Do you want to activate your new installation now? (N) " -n 1 -r
  if [[ $REPLY =~ ^[Yy]$ ]]
  then
-  source .bashrc
+  source ~/.bashrc
  fi
 
 fi

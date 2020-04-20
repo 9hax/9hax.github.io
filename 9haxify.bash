@@ -2,7 +2,7 @@
 
 # This file is used to automatically set up an Ubuntu system with a good looking shell and some cool aliases.
 
-read -p "Do you want to install 9haxify to this directory? " -n 1 -r
+read -p "Do you want to install 9haxify to this users home directory? " -n 1 -r
 echo    # (optional) move to a new line
 if [[ $REPLY =~ ^[Yy]$ ]]
 then
@@ -15,15 +15,18 @@ then
  
  echo "Setting up mybashrc environment in current folder..."
  cd mybashrc
- mv .bash* ..
- mv todo ..
+ mv .bashaliases ~
+ mv .bashfancy ~
+ mv .bashrc ~
+ mv todo ~
  cd ..
+ rm -rf mybashrc
  
  echo "The current todo file is:"
- source todo
+ source ~/todo
  
- read -p "Installation finished. Do you want to activate your new installation now? (Y) " -n 1 -r
- if [! [[ $REPLY =~ ^[Nn]$ ]]]
+ read -p "Installation finished. Do you want to activate your new installation now? (N) " -n 1 -r
+ if [[ $REPLY =~ ^[Yy]$ ]]
  then
   source .bashrc
  fi

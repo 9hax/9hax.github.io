@@ -14,14 +14,16 @@ then
  git clone https://github.com/9hax/mybashrc  
  
  echo "Setting up mybashrc environment in current folder..."
- mv mybashrc/.* .
- echo "You are using fancyprompt with mybashrc by 9hax. This is free Software. Github at bit.ly/mbrcgit" > todo
+ cd mybashrc
+ mv .bash* ..
+ mv todo ..
+ cd ..
  
  echo "The current todo file is:"
  source todo
  
  read -p "Installation finished. Do you want to activate your new installation now? (Y) " -n 1 -r
- if ![[ $REPLY =~ ^[Nn]$ ]]
+ if [! [[ $REPLY =~ ^[Nn]$ ]]]
  then
   source .bashrc
  fi

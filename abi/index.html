@@ -3,9 +3,31 @@
     <head>
         <meta charset="utf-8">
         <title>Abiturfeier 2020 - LiveStream</title>
+        <style>
+            body {
+                background-color: black;
+                margin: 0;
+                padding: 0;
+            }
+            
+            .vcenter {
+                height: 10vh;
+                position: relative 
+            }
+            
+            .vcenter p {
+                margin: 0;
+                position: absolute;
+                top: 50%;
+                transform: translate(0, -50%);
+                color: white;
+            }
+        </style>
     </head>
     <body style="background-color:black;margin: 0;padding: 0;">
         <iframe src="https://www.youtube.com/embed/1nmb8i8uXHw" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" style="width: 80vw; height: 80vh" frameborder="0"></iframe>
-        <p style="color:white;">Dieser Livestream wird präsentiert von Paul².</p>
+        <div class="vcenter">
+            <p style="color:white;">Dieser Livestream wird präsentiert von Paul².</p>
+        </div>
     </body>
 </html>
